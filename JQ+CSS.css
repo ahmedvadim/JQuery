@@ -1,0 +1,15 @@
+.box{
+  padding: 20px;
+  background: #DDD;
+  border: 2px solid #00F;
+  margin:20px auto;
+  width:600px;
+  display: none;
+}
+.open{
+  padding: 10px;
+  background: #DDD;
+  border: 2px solid #00F;
+  margin:auto;
+  width:600px;
+}

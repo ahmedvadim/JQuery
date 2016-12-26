@@ -138,6 +138,6 @@ console.log(theDate);
                                                ///////////////*JQuery*/////////////////
 $(document).ready(function() {
   $('.open').click(function() {
-    $('.box').slideDown();
+  $('.box').remove();
   });
 });

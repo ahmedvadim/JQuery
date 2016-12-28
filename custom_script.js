@@ -137,7 +137,8 @@ console.log(theDate);
 *//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                ///////////////*JQuery*/////////////////
 $(document).ready(function() {
-  $('.open').click(function() {
-  $('.box').append('<span><a href="#">Google</span>');
+  $('button').click(function() {
+  $('p').toggleClass('custom');
+
   });
 });

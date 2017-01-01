@@ -1,6 +1,7 @@
-.custom{
+body *{
   padding:15px;
   background: #DDD;
   border: 2px solid #00F;
   width:600px;
   border-radius: 5px;
+}

@@ -138,7 +138,7 @@ console.log(theDate);
                                                ///////////////*JQuery*/////////////////
 $(document).ready(function() {
   $('*').click(function() {
-  $('div.custom').css("border", " 3px solid #0F0");
+  $('div:nth-child(3)').css("border", " 3px solid #0F0");
 
   });
 });

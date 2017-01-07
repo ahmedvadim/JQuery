@@ -151,8 +151,16 @@ $(document).ready(function()
 });
 //  Other Things: ul > li; ul ~ li; ul + li; ul - li; ...
 *//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+/*
 $(document).ready(function()
 {
   $("div[lang!='ar']").css("color","#00F"); // Other Things:!= Not Equal ; *= Contains ; ~= Contains 1 word  ; ^= Start with the word .
+});
+*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$(document).ready(function(){
+  $(":input").css("display","block");
+  $(":text").click(function()
+  {
+    $(this).fadeOut();
+    });
 });

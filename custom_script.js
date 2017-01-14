@@ -157,10 +157,31 @@ $(document).ready(function()
   $("div[lang!='ar']").css("color","#00F"); // Other Things:!= Not Equal ; *= Contains ; ~= Contains 1 word  ; ^= Start with the word .
 });
 *//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
 $(document).ready(function(){
   $(":input").css("display","block");
   $(":text").click(function()
   {
     $(this).fadeOut();
     });
+});
+*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$(document).ready(function(){
+
+ $("input").on("keydown", function(){
+
+    $("div").text("down");
+
+ });
+ $("input").on("keypress", function(){
+
+    $("div").text("press");
+
+ });
+ $("input").on("keyup", function(){
+
+    $("div").text("up");
+
+ });
+
 });
